@@ -1,0 +1,5 @@
+source,query
+main_phrase,( ( algorithm* OR automat* OR bot$ OR "artificial intelligence" ) AND ( financ* OR trading ) AND ( "social media" OR twitter OR facebook OR youtube OR reddit OR telegram ) AND ( manipulat* OR disinformation ) )
+Scopus,TITLE-ABS-KEY ( ( ( algorithm*  OR  automat*  OR  bot  OR  bots  OR  "artificial intelligence" )  AND  ( financ*  OR  trading )  AND  ( "social media"  OR  twitter  OR  facebook  OR  youtube  OR  reddit  OR  telegram )  AND  ( manipulat*  OR  disinformation ) ) )  AND  ( LIMIT-TO ( DOCTYPE ,  "ar" )  OR  LIMIT-TO ( DOCTYPE ,  "cp" ) )  AND  ( LIMIT-TO ( LANGUAGE ,  "English" ) )
+IEEE,(( algorithm* OR automat* OR bot$ OR "artificial intelligence" ) AND ( financ* OR trading ) AND ( "social media" OR twitter OR facebook OR youtube OR reddit OR telegram ) AND ( manipulat* OR disinformation )) +{FILTERS APPLIED: Conferences, Journals}
+Web of Science,((TS=((( algorithm* OR bot OR bots OR "artificial intelligence" ) AND ( financ* ) AND ( "social media" OR twitter OR telegram ) AND ( manipulat* OR disinformation )))) AND LA=(English)) AND DT=(Article OR Proceedings Paper)

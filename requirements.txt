@@ -1,0 +1,9 @@
+pdftotext
+numpy
+pandas
+matplotlib
+seaborn
+spacy
+scikit-learn
+wordcloud
+networkx
